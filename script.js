@@ -1,3 +1,3 @@
 import App from './app.js'
-const e = React.createElemnt;
+const e = React.createElement;
 ReactDOM.render(e(App), document.querySelector('#root'));

@@ -20,6 +20,21 @@
     }
   </style>
   
+  <script>
+    import React from 'react';
+    import ReactDOM from 'react-dom';
+    import { VFXProvider } from 'react-vfx';
+
+    //react vfx testing
+    window.onload = function App {
+      return (
+        <VFXProvider>
+          <VFXSpan>Hello world!</VFXSpan>
+        </VFXProvider>
+      );
+    }
+  </script>
+  
 <!--js scripts-->
   <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>

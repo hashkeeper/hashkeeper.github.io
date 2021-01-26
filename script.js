@@ -11,10 +11,8 @@ function App {
   );
 }
 
-App();
-
 //W3 Class Template
-/class Car extends React.Component {
+//class Car extends React.Component {
 //  render() {
 //    return <h2>I am a {this.props.brand}!</h2>
 //  }
@@ -22,4 +20,4 @@ App();
 
 //const myelement = <Car brand="Ford" />;
 
-ReactDOM.render(App(), document.getElementById('root'));
+ReactDOM.render(<VFXSpan>Hello world!</VFXSpan>, document.getElementById('root'));

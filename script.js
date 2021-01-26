@@ -22,4 +22,4 @@ App();
 
 //const myelement = <Car brand="Ford" />;
 
-//ReactDOM.render(myelement, document.getElementById('root'));
+ReactDOM.render(App(), document.getElementById('root'));

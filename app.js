@@ -9,4 +9,4 @@ function App()
 }
 
 
-export default App;
+setInterval(App, 1000);

@@ -3,7 +3,8 @@ const e = React.createElement;
 function App()
 {
     return(
-        e(' Chill.')
+        const element = <h1>Geez, okay</h1>;
+        ReactDOM.render(element, document.getElementById('root'));
     )
 }
 

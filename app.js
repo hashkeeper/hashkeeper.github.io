@@ -1,9 +1,9 @@
 const e = React.createElement;
+const element = <h1>Geez, okay</h1>;
 
 function App()
 {
     return(
-        const element = <h1>Geez, okay</h1>;
         ReactDOM.render(element, document.getElementById('root'));
     )
 }

@@ -17,6 +17,9 @@ body {
 }
 
 .entry {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: black;
   color: white;
   width: 20%;

@@ -8,7 +8,7 @@ h1 {
 }
 
 footer {
-    height: 23px;
+    height: 1vh;
     background-color: #4b4848;
     position: fixed;
     display: flex;

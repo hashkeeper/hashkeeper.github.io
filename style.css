@@ -3,6 +3,10 @@ body {
   background-color: #88717e;
 }
 
+h1 {
+  width: 5%;
+}
+
 footer {
     height: 23px;
     background-color: #4b4848;

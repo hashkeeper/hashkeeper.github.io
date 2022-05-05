@@ -2,3 +2,21 @@ body {
   margin: 0;
   background-color: grey;
 }
+
+.main {
+display: flex;
+flex-direction: column;
+}
+
+.gridrow {
+display:flex;
+flex-direction: row;
+justify-content: center;
+margin: 2% 0 0 0;
+}
+
+.entry {
+  background-color: black;
+  width: 15%;
+  margin: 0 1% 0 1%;
+}

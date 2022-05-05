@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #88717e;
+  background-color: #6a1345;
 }
 
 h1 {
@@ -8,7 +8,7 @@ h1 {
 }
 
 footer {
-    height: 3.5vh;
+    height: 3vh;
     background-color: #4b4848;
     position: fixed;
     display: flex;
@@ -36,9 +36,10 @@ footer {
   display:flex;
   flex-direction: column;
   justify-content: center;
-  background-color: black;
+  background-color: #8a0050;
   color: white;
   width: 20%;
-  height: 15%;
+  height: 250px;
   margin: 0 1% 0 1%;
+  radius: 1.5%;
 }

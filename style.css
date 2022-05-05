@@ -22,7 +22,7 @@ footer {
 .main {
   display: flex;
   flex-direction: column;
-  align-objects: center;
+  justify-content: center;
 }
 
 .gridrow {

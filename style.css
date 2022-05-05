@@ -34,12 +34,12 @@ footer {
 
 .entry {
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   background-color: #8a0050;
   color: white;
   width: 20%;
-  height: 250px;
+  height: 200px;
   margin: 0 1% 0 1%;
   radius: 1.5%;
 }

@@ -3,6 +3,18 @@ body {
   background-color: grey;
 }
 
+footer {
+    height: 23px;
+    background-color: #4b4848;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+}
+
 .main {
   display: flex;
   flex-direction: column;

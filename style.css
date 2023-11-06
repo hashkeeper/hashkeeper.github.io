@@ -1,49 +1,93 @@
 body {
+  background-color: black;
+  color: white;
   margin: 0;
-  background-color: #6a1345;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: grey;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 5px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0px;
 }
 
 header {
-  background-color: #4d002c;
+  color: grey;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
-h1 {
-  width: 5%;
+header > svg {
+  width: 65px;
+  padding: 25px 0 0 0;
+}
+
+header svg:nth-child(1) {
+  transform: scaleX(-1);
+}
+
+header > hr {
+  height: 2px;
+  width: 80%;
+  border-style: double;
+  text-align: center;
+  color: grey;
+  margin: 20px 10px;
+  overflow: visible;
+}
+
+header > hr:after {
+  font-size: 35px;
+  padding: 0 4px;
+  display: inline;
+  background-color: black;
+  color: grey;
+  content: "☘";
+  position: relative;
+  top: -25px;
+}
+
+#main {
+width: 80%;
+align-self: center;
+}
+
+#main > * {
+  width: 47%;
+  margin: 0 10%;
+}
+
+#freeware {
 }
 
 footer {
-    height: 24px;
-    background-color: #4b4848;
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    left: 0;
-    bottom: 0;
-    width: 100vw;
-}
-
-.main {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.gridrow {
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 2% 0 0 0;
-}
-
-.entry {
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: #8a0050;
-  color: white;
-  width: 20%;
-  height: 200px;
-  margin: 0 1% 0 1%;
-  radius: 3.5%;
+  background-color: grey;
+  height: 17px;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
 }

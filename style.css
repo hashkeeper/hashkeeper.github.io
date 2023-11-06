@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  color: white;
+  color: grey;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -11,7 +11,7 @@ a {
 }
 
 a:visited {
-  color: grey;
+  color: white;
 }
 
 h1, h2, h3, h4, h5 {
@@ -81,13 +81,29 @@ align-self: center;
   margin: 0 10%;
 }
 
-#freeware {
-}
-
 footer {
   background-color: grey;
-  height: 17px;
+  color: black;
+  height: auto;
   width: 100%;
+  font-size: 14px;
   bottom: 0;
   position: absolute;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+footer > p {
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  margin: 0;
+}
+
+footer > #github {
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  margin: 0 35px 0 0;
 }

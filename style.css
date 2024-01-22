@@ -66,11 +66,7 @@ header > hr:after {
   display: inline;
   background-color: black;
   color: grey;
-<<<<<<< HEAD
   content: "⚙⚙";
-=======
-  content: "☘";
->>>>>>> 190e85d (flushing it out)
   position: relative;
   top: -25px;
 }
@@ -83,10 +79,13 @@ align-self: center;
 #main > * {
   width: 47%;
   margin: 0 10%;
-<<<<<<< HEAD
-=======
-  white-space: nowrap
->>>>>>> 190e85d (flushing it out)
+  white-space: nowrap;
+  margin: 0 10% 5% 10%;
+  white-space: nowrap;
+}
+
+#rec {
+  color: #521313;
 }
 
 footer {
@@ -96,11 +95,7 @@ footer {
   width: 100%;
   font-size: 14px;
   bottom: 0;
-<<<<<<< HEAD
-  position: absolute;
-=======
   position: fixed;
->>>>>>> 190e85d (flushing it out)
   justify-content: space-between;
   align-content: center;
   align-items: center;
@@ -119,16 +114,10 @@ footer > #github {
   text-align: center;
   margin: 0 35px 0 0;
 }
-<<<<<<< HEAD
-=======
-
 @media (max-width:775px) {
   #main {
     flex-direction: column;
     align-items: start;
     width: 100%;
   }
-
-
 }
->>>>>>> 190e85d (flushing it out)

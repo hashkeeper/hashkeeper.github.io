@@ -2,27 +2,23 @@ body {
     margin: 0;
     overflow: hidden;
     background-color: #6da6c9;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     justify-content: space-between;
     font-size: 22px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-footer {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    justify-content: end;
-    z-index: 1;
-}
-
 nav {
+    position: absolute;
+    bottom: 0;
     background-color: rgb(125, 143, 160);
     width: 100vw;
     height: 39px;
     justify-self: flex-end;
     align-items: center;
+    z-index: 500; 
+    flex-grow: 1;
 }
 
 nav * {
@@ -54,16 +50,14 @@ nav * {
     border: 2px solid rgb(56, 56, 56);
     width: 80vw;
     height: 70vh;
-    top: 3%;
-    right: 3%;
     background-color: rgb(125, 143, 160);
     justify-content: space-between;
 }
 
-.windowS:nth-child(1) {top: 100px; right: 150px; }
-.windowS:nth-child(2) {top: 125px; right: 125px; }
-.windowS:nth-child(3) {top: 150px; right: 100px; }
-.windowS:nth-child(4) {top: 175px; right: 75px; }
+.windowS:nth-child(1) {top: 25px; right: 50px; }
+.windowS:nth-child(2) {top: 35px; right: 75px; }
+.windowS:nth-child(3) {top: 45px; right: 100px; }
+.windowS:nth-child(4) {top: 55px; right: 125px; }
 
 .windowRow {
     width: inherit;  
@@ -80,8 +74,8 @@ nav * {
     display: none;
     position: absolute;
     bottom: 39px;
-    width: 450px;
-    height: 600px;
+    width: 448px;
+    height: 65%;
     background-color:  rgb(125, 143, 160);
     border: 2px rgb(56, 56, 56);
     border-style: solid solid none none;
@@ -112,8 +106,8 @@ nav * {
     .windowS {
         display: block;
         position: absolute;
-        width: 99.1vw;
-        height: calc(100vh - 39px);
+        width: calc(100% - 4px);
+        height: calc(100vh - 40px);
         margin: 0 0 0 0;
         top: 0px;
         right: 0px;
@@ -129,7 +123,7 @@ nav * {
     #startMenu {
         display: block;
         position: absolute;
-        width: 100%;
+        width: calc(100% - 2px);
         height: calc(100% - 39px);
         margin: 0 0 0 0;
         top: 0px;
